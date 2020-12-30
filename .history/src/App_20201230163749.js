@@ -93,7 +93,7 @@ function App() {
         <Input.Group compact>
           <Input.Search style={{ width: "40%" }} defaultValue="0571" />
           <br />
-          <br />
+        <br />
           <Input.Search
             allowClear
             style={{ width: "40%" }}
@@ -103,8 +103,6 @@ function App() {
         <br />
         <Input.Group compact>
           <Input.Search allowClear style={{ width: "40%" }} defaultValue="0571" />
-          <br />
-          <br />
           <Input.Search
             allowClear
             style={{ width: "40%" }}

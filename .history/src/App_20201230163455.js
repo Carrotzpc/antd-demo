@@ -1,4 +1,4 @@
-// import logo from './logo.svg';
+import logo from './logo.svg';
 import './App.less';
 import {
   Input,
@@ -51,7 +51,7 @@ const options = [
 function App() {
   return (
     <div className="App">
-      {/* <header className="App-header">
+      <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -64,7 +64,7 @@ function App() {
         >
           Learn React
         </a>
-      </header> */}
+      </header>
       <div className="site-input-group-wrapper">
         <Input.Group size="large">
           <Row gutter={8}>
@@ -92,8 +92,6 @@ function App() {
         <br />
         <Input.Group compact>
           <Input.Search style={{ width: "40%" }} defaultValue="0571" />
-          <br />
-          <br />
           <Input.Search
             allowClear
             style={{ width: "40%" }}
@@ -103,8 +101,6 @@ function App() {
         <br />
         <Input.Group compact>
           <Input.Search allowClear style={{ width: "40%" }} defaultValue="0571" />
-          <br />
-          <br />
           <Input.Search
             allowClear
             style={{ width: "40%" }}
